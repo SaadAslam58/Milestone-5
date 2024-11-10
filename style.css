@@ -178,3 +178,21 @@ button:hover {
 #resume p:hover {
     transform: scale(1.05);
 }
+
+
+@media screen and (max-width:600px) {
+
+    .container {
+        width: 100%;
+        margin: 0px;
+        padding: 12px;
+        background-color: #16425b;
+        transition: none;
+        border-radius: 0px;
+    }
+    
+    .container:hover {
+        box-shadow: none;
+    }
+
+}
